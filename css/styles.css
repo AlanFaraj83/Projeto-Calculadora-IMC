@@ -79,3 +79,12 @@ button:hover {
     background-color: #021263;
     opacity: 0.8;
 }
+
+#clear-btn {
+    background-color: #444;
+}
+
+#clear-btn:hover {
+    background-color: #021263;
+    opacity: 0.8;
+}
