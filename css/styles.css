@@ -62,3 +62,20 @@ body {
     margin-top: 2rem;
     gap: 1rem;
 }
+
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #F44236;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1;
+
+}
+
+button:hover {
+    background-color: #021263;
+    opacity: 0.8;
+}
