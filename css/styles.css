@@ -6,7 +6,9 @@
 }
 
 body {
-    background-color: #090e22;
+    background-image: url(../img/peso.jpg);
+    background-size:1535px  800px;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,4 +23,8 @@ body {
 .container {
     min-width: 400px;
     min-height: 400px;
+    background-color:transparent;
+    padding: 2rem;
 }
+
+/* IMC FORM */
