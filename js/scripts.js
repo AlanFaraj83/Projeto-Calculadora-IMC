@@ -39,4 +39,9 @@ const data = [
 
 // Seleção de elementos
 const imcTable = document.querySelector("#imc-table");
+const heightInput = document.querySelector("#height");
+const wightInput = document.querySelector("#weight");
+const calcBtn = document.querySelector("#calc-btn");
+const clearBtn = document.querySelector("#clear-btn");
+
   
