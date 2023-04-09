@@ -150,3 +150,19 @@ button:hover {
 #back-btn {
     align-self: center;
 }
+
+.great {
+    color: #0f9826;
+}
+
+.low {
+    color: #dbce12;
+}
+
+.medium {
+    color: #db6212;
+}
+
+.high {
+    color: #db1912;
+}
