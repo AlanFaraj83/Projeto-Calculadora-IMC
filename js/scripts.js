@@ -45,5 +45,32 @@ const calcBtn = document.querySelector("#calc-btn");
 const clearBtn = document.querySelector("#clear-btn");
 
 
+// Funções
+function createTable(data) {
+  data.forEach((item) => {
+
+
+    const div = document.createElement("div");
+    div.classList.add(table-data);
+
+    const classification = document.createElement("p");
+    classification.innerText = item.classification;
+
+    const info = document.createElement("p");
+    info.innerText = info.classification;
+
+    const obesity = document.createElement("p");
+    obesity.innerText = obesity.classification;
+
+  })
+}
+
+
+// Inicialização 
+
+
+// Eventos
+
+
 
   
