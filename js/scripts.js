@@ -72,6 +72,8 @@ function createTable(data) {
 }
 
 
+
+
 // Inicialização 
 createTable(data);
 
