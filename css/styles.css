@@ -5,6 +5,12 @@
     font-family: "Lato", sans-serif;
 }
 
+:root {
+    --bk-bg-color: #021263;
+    --bc-bg-color: #F44236;
+    --bg-cg-color: #444;
+}
+
 body {
     background-image: url(../img/peso2.jpg);
     background-size:1535px  800px;
@@ -13,7 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    color: #021263;
+    color: var(--bk-bg-color);
     
 }
 
@@ -49,7 +55,7 @@ body {
 .form-control label {
     font-weight: bold;
     margin-bottom: 0.6rem;
-    color: #021263;
+    color: var(--bk-bg-color);
 }
 
 .form-control input {
@@ -66,7 +72,7 @@ body {
 button {
     text-transform: uppercase;
     padding: 1rem 1.5rem;
-    background-color: #F44236;
+    background-color: var(--bc-bg-color);
     border: none;
     color: #fff;
     cursor: pointer;
@@ -76,16 +82,16 @@ button {
 }
 
 button:hover {
-    background-color: #021263;
+    background-color: var(--bk-bg-color);
     opacity: 0.8;
 }
 
 #clear-btn {
-    background-color: #444;
+    background-color: var(--bg-cg-color);
 }
 
 #clear-btn:hover {
-    background-color: #021263;
+    background-color: var(--bk-bg-color);
     opacity: 0.8;
 }
 
@@ -96,7 +102,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     border-style: solid;
-    border-color: #021263; 
+    border-color: var(--bk-bg-color); 
     
 }
 
@@ -107,12 +113,12 @@ button:hover {
 
 #imc-info {
     font-size: 1.4rem;
-    color: #021263;
+    color: var(--bk-bg-color);
 }
 
 #result-container h3 {
     margin-top: 1rem;
-    color: #021263;
+    color: var(--bk-bg-color);
 }
 
 #imc-table {
@@ -123,7 +129,7 @@ button:hover {
 
 .table-header {
     font-weight: bold;
-    color: #021263;
+    color: var(--bk-bg-color);
 }
 
 .table-header,
@@ -132,7 +138,7 @@ button:hover {
     justify-content: space-between;
     margin-bottom: 0.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid #021263;
+    border-bottom: 1px solid var(--bk-bg-color);
    
 }
 
