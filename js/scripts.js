@@ -65,10 +65,10 @@ function createTable(data) {
     classification.innerText = item.classification;
 
     const info = document.createElement("p");
-    info.innerText = item.classification;
+    info.innerText = item.info;
 
     const obesity = document.createElement("p");
-    obesity.innerText = item.classification;
+    obesity.innerText = item.obesity;
 
     div.appendChild(classification);
     div.appendChild(info);
