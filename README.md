@@ -28,10 +28,13 @@
   
 ### <strong><i>Como clonar o projeto:</i></strong>
 
-<p> git clone   </p>
+<p> git clone  https://github.com/AlanFaraj83/Projeto-Calculadora-IMC.git </p>
 
 </br>
 
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo https://github.com/AlanFaraj83/Projeto-Calculadora-IMC/blob/main/LICENSE para mais detalhes.
 
 
 
